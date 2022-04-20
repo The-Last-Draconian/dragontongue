@@ -14,7 +14,7 @@ fetch(requestURL)
             let flDiv = document.createElement("div");
             //first-letter heading
             let flh2 = document.createElement("h2");
-            flh2.textContent = `${data[0].firstLetter}`;
+            flh2.textContent = `${data[0].first}`;
                 
             let testing = document.createElement("p");
             testing.textContent = "this is a test";
