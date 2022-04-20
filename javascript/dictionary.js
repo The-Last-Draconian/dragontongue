@@ -1,6 +1,6 @@
 //dictionary data
 //storing the JSON file
-const requestURL = "..json/dictionary.json";
+const requestURL = "https://the-last-draconian.github.io/dragontongue/json/dictionary.json";
 
 //fetching the URL and making a Promise
 fetch(requestURL)
@@ -20,7 +20,8 @@ fetch(requestURL)
 
             //first-letter heading
             let flh2 = document.createElement("h2");
-            flh2.textContent = `${letter.first-letter}`;
+            flh2.textContent = "testing";
+            //flh2.textContent = `${letter.first-letter}`;
             
             //ordering the content
             flDiv.appendChild(flh2);
