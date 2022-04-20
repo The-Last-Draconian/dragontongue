@@ -1,8 +1,8 @@
 {
     "dictionary": [
         {
-            "firstLetter": "a",
-            "secondLetter": [
+            "first": "a",
+            "second": [
                 {
                     "secondLetter": "a"
                 },
@@ -12,10 +12,10 @@
             ]
         },
         {
-            "firstLetter": "b"
+            "first": "b"
         },
         {
-            "firstLetter": "c"
+            "first": "c"
         }
     ]
 }
