@@ -1,0 +1,23 @@
+{
+    "dictionary": {
+        "first-letter": [{
+                "A": [
+                    {
+                        "second-letter": []
+                    }
+                ],  
+                "B": [
+                    {
+                        "second-letter": []
+                    }
+                ],
+                "C": [
+                   {
+                       "second-letter": []
+                   } 
+                ]
+            }
+        ]
+        
+    }
+}
