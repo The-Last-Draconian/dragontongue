@@ -1,7 +1,15 @@
 {
     "dictionary": [
         {
-            "firstLetter": "a"
+            "firstLetter": "a",
+            "secondLetter": [
+                {
+                    "secondLetter": "a"
+                },
+                {
+                    "secondLetter": "b"
+                }
+            ]
         },
         {
             "firstLetter": "b"

@@ -8,15 +8,13 @@ fetch(requestURL)
     .then((dictionary) => {
         console.log(dictionary);
 
-        let firstLetter = dictionary.firstLetter;
+        let data = dictionary;
         
         for (i=0; i < 4; i++) {
             let flDiv = document.createElement("div");
-            flDiv.setAttribute("class", "first-letter");
-
             //first-letter heading
             let flh2 = document.createElement("h2");
-            flh2.textContent = firstLetter[i];
+            flh2.textContent = `${data[0].firstLetter}`;
                 
             let testing = document.createElement("p");
             testing.textContent = "this is a test";
@@ -26,7 +24,7 @@ fetch(requestURL)
             flDiv.appendChild(testing);
 
             //exporting the content to the restaurants section
-            document.querySelector("#dictionary-wrapper").appendChild(flDiv);
+            document.querySelector("#wrapper").appendChild(flDiv);
 
         }
     });
