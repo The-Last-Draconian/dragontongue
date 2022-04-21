@@ -4,10 +4,10 @@
             "first": "a",
             "second": [
                 {
-                    "secondLetter": "a"
+                    "secondletter": "a"
                 },
                 {
-                    "secondLetter": "b"
+                    "secondletter": "b"
                 }
             ]
         },
