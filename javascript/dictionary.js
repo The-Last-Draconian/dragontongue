@@ -22,11 +22,11 @@ fetch(requestURL)
             flDiv.setAttribute("class", "fl-" + fldata.first);
             
             //heading
-            let flh2 = document.createElement("h2");
-            flh2.textContent = fldata.first;
+            let flh1 = document.createElement("h2");
+            flh1.textContent = fldata.first;
 
             //ordering the content
-            flDiv.appendChild(flh2);
+            flDiv.appendChild(flh1);
             
            
            
