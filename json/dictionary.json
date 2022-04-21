@@ -12,10 +12,26 @@
             ]
         },
         {
-            "first": "b"
+            "first": "b",
+            "second": [
+                {
+                    "secondletter": "a"
+                },
+                {
+                    "secondletter": "b"
+                }
+            ]
         },
         {
-            "first": "c"
+            "first": "c",
+            "second": [
+                {
+                    "secondletter": "a"
+                },
+                {
+                    "secondletter": "b"
+                }
+            ]
         }
     ]
 }
