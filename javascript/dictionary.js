@@ -48,12 +48,8 @@ fetch(requestURL)
                     let slh3 = document.createElement("h3");
                     slh3.textContent = sldata.secondletter;
 
-                    let test2 = document.createElement("p");
-                    test2.textContent = "this is test "+sldata.secondletter;
-                
                     flDiv.appendChild(slSection);
                     slSection.appendChild(slh3);
-                    slSection.appendChild(test2);
 
                     //WORDS!!!
                     let wordArray = sldata.words;
@@ -75,15 +71,11 @@ fetch(requestURL)
 
                         let dspan = document.createElement("span");
                         dspan.textContent = wdata.d_pron;
-
-                        let test3 = document.createElement("p");
-                        test3.textContent = "this is a definition";
                     
                         slSection.appendChild(wordDiv);
                         wordDiv.appendChild(wh4);
                         wordDiv.appendChild(hspan);
                         wordDiv.appendChild(dspan);
-                        wordDiv.appendChild(test3);
 
 
                         //DEFINITION ARRAY
@@ -99,11 +91,15 @@ fetch(requestURL)
                                 //second-letter section
                                 let defDiv = document.createElement("div");
                                 
-                                let defp = document.createElement("p");
-                                defp.textContent = "this is trifficult";
+                                let h_example = document.createElement("p");
+                                h_example.textContent = defdata.examples[0].h_example;
 
+                                let d_example = document.createElement("p");
+                                d_example.textContent = defdata.examples[0].d_example;
+                                
                                 wordDiv.appendChild(defDiv);
-                                defDiv.appendChild(defp);
+                                defDiv.appendChild(h_example);
+                                defDiv.appendChild(h_example);
                             }
                         } else {
                             let defdata = wdata.definition[0];
@@ -111,11 +107,15 @@ fetch(requestURL)
                             //second-letter section
                             let defDiv = document.createElement("div");
                                 
-                            let defp = document.createElement("p");
-                            defp.textContent = "this is trifficult";
+                            let h_example = document.createElement("p");
+                            h_example.textContent = defdata.examples[0].h_example;
 
+                            let d_example = document.createElement("p");
+                            d_example.textContent = defdata.examples[0].d_example;
+                                
                             wordDiv.appendChild(defDiv);
-                            defDiv.appendChild(defp);
+                            defDiv.appendChild(h_example);
+                            defDiv.appendChild(d_example);
                         }
                     }
                 }
