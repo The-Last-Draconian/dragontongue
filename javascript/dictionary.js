@@ -55,29 +55,35 @@ fetch(requestURL)
                     slSection.appendChild(slh3);
                     slSection.appendChild(test2);
 
-                     //WORDS!!!
-                    let wordArray = fldata.words;
+                    //WORDS!!!
+                    let wordArray = sldata.words;
                     console.log(wordArray.length);
 
-                    //make sure there is actually a second letter
-                    if (0 < wordArray.length) {
                     let wordLimit = wordArray.length;
-                        for (w=0; w < wordLimit; w++) {
-                            let wdata = fldata.words[w];
+                    for (w=0; w < wordLimit; w++) {
+                        let wdata = sldata.words[w];
 
-                            //word div
-                            let wordDiv = document.createElement("div");
+                        //word div
+                        let wordDiv = document.createElement("div");
+                        wordDiv.setAttribute("class", "word-div");
 
-                            let wh3 = document.createElement("h3");
-                            wh3.textContent = "test";
+                        let wh4 = document.createElement("h4");
+                        wh4.textContent = wdata.name;
 
-                            let test3 = document.createElement("p");
-                            test3.textContent = "this is a definition";
-                        
-                            slSection.appendChild(wordDiv);
-                            wordDiv.appendChild(slh3);
-                            wordDiv.appendChild(test3); 
-                        }
+                        let hspan = document.createElement("span");
+                        hspan.textContent = wdata.h_pron;
+
+                        let dspan = document.createElement("span");
+                        dspan.textContent = wdata.d_pron;
+
+                        let test3 = document.createElement("p");
+                        test3.textContent = "this is a definition";
+                    
+                        slSection.appendChild(wordDiv);
+                        wordDiv.appendChild(wh4);
+                        wordDiv.appendChild(hspan);
+                        wordDiv.appendChild(dspan);
+                        wordDiv.appendChild(test3);
                     }
                 }
             }

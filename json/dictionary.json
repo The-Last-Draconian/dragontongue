@@ -7,13 +7,58 @@
                     "secondletter": "a",
                     "words": [
                         {
-                            "name": "actual word"
+                            "name": "actual word",
+                            "h_pron": "pronounce",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "classification.",
+                                    "meaning": "definition of word.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
                         },
                         {
-                            "name": "actual word"
+                            "name": "actual word",
+                            "h_pron": "pronounce",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "classification.",
+                                    "meaning": "definition of word.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
                         },
                         {
-                            "name": "actual word"
+                            "name": "actual word",
+                            "h_pron": "pronounce",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "classification.",
+                                    "meaning": "definition of word.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
                         }
                     ]
                 },
@@ -21,13 +66,58 @@
                     "secondletter": "b",
                     "words": [
                         {
-                            "name": "actual word"
+                            "name": "actual word",
+                            "h_pron": "pronounce",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "classification.",
+                                    "meaning": "definition of word.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
                         },
                         {
-                            "name": "actual word"
+                            "name": "actual word",
+                            "h_pron": "",
+                            "d_pron": "",
+                            "definition": [
+                                {
+                                    "class": "classification.",
+                                    "meaning": "definition of word.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
                         },
                         {
-                            "name": "actual word"
+                            "name": "actual word",
+                            "h_pron": "pronounce",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "classification.",
+                                    "meaning": "definition of word.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
                         }
                     ]
                 }
