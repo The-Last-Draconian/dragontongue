@@ -84,6 +84,39 @@ fetch(requestURL)
                         wordDiv.appendChild(hspan);
                         wordDiv.appendChild(dspan);
                         wordDiv.appendChild(test3);
+
+
+                        //DEFINITION ARRAY
+                        let defArray = wdata.definition;
+                        console.log(defArray.length);
+
+                        //make sure there is actually a second letter
+                        if (1 < defArray.length) {
+                        let secondLimit = defArray.length;
+                            for (d=0; d < defLimit; d++) {
+                                let defdata = wdata.definition[d];
+
+                                //second-letter section
+                                let defDiv = document.createElement("div");
+                                
+                                let defp = document.createElement("p");
+                                defp.textContent = "this is trifficult";
+
+                                wordDiv.appendChild(defDiv);
+                                defDiv.appendChild(defp);
+                            }
+                        } else {
+                            let defdata = wdata.definition[0];
+
+                            //second-letter section
+                            let defDiv = document.createElement("div");
+                                
+                            let defp = document.createElement("p");
+                            defp.textContent = "this is trifficult";
+
+                            wordDiv.appendChild(defDiv);
+                            defDiv.appendChild(defp);
+                        }
                     }
                 }
             }
