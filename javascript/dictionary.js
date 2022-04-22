@@ -69,13 +69,13 @@ fetch(requestURL)
                         let hspan = document.createElement("span");
                         hspan.textContent = wdata.h_pron;
 
-                        let dspan = document.createElement("span");
-                        dspan.textContent = wdata.d_pron;
+                        //let dspan = document.createElement("span");
+                        //dspan.textContent = wdata.d_pron;
                     
                         slSection.appendChild(wordDiv);
                         wordDiv.appendChild(wh4);
                         wordDiv.appendChild(hspan);
-                        wordDiv.appendChild(dspan);
+                        //wordDiv.appendChild(dspan);
 
 
                         //DEFINITION ARRAY
@@ -96,10 +96,14 @@ fetch(requestURL)
 
                                 let d_example = document.createElement("p");
                                 d_example.textContent = defdata.examples[0].d_example;
-                                
+
+                                let meaning = document.createElement("p");
+                                meaning.textContent = defdata.meaning;
+
                                 wordDiv.appendChild(defDiv);
-                                defDiv.appendChild(h_example);
-                                defDiv.appendChild(h_example);
+                                //defDiv.appendChild(h_example);
+                                //defDiv.appendChild(h_example);
+                                defDiv.appendChild(meaning);
                             }
                         } else {
                             let defdata = wdata.definition[0];
@@ -112,10 +116,14 @@ fetch(requestURL)
 
                             let d_example = document.createElement("p");
                             d_example.textContent = defdata.examples[0].d_example;
+
+                            let meaning = document.createElement("p");
+                            meaning.textContent = defdata.meaning;
                                 
                             wordDiv.appendChild(defDiv);
-                            defDiv.appendChild(h_example);
-                            defDiv.appendChild(d_example);
+                            //defDiv.appendChild(h_example);
+                            //defDiv.appendChild(d_example);
+                            defDiv.appendChild(meaning);
                         }
                     }
                 }

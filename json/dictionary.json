@@ -7,13 +7,13 @@
                     "secondletter": "a",
                     "words": [
                         {
-                            "name": "actual word",
-                            "h_pron": "pronounce",
+                            "name": "Ae",
+                            "h_pron": "&aacute",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
-                                    "class": "classification.",
-                                    "meaning": "definition of word.",
+                                    "class": "conjunction",
+                                    "meaning": "And, also.",
                                     "examples": [ 
                                         {
                                             "h_example": "This is an example.",
@@ -25,13 +25,13 @@
                             "new": "no"
                         },
                         {
-                            "name": "actual word",
+                            "name": "Acriye",
                             "h_pron": "pronounce",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
-                                    "class": "classification.",
-                                    "meaning": "definition of word.",
+                                    "class": "noun",
+                                    "meaning": "A strong, fierce wind current, high in the sky.",
                                     "examples": [ 
                                         {
                                             "h_example": "This is an example.",
@@ -43,13 +43,31 @@
                             "new": "no"
                         },
                         {
-                            "name": "actual word",
+                            "name": "Acriye&aelig;s",
                             "h_pron": "pronounce",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
-                                    "class": "classification.",
-                                    "meaning": "definition of word.",
+                                    "class": "multiple plural",
+                                    "meaning": "Multiple wind currents; used to describe a region of sky.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "Acriy&iacute;",
+                            "h_pron": "pronounce",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "countless plural",
+                                    "meaning": "An innumerable number of wind currents; used to describe the entirety of the sky.",
                                     "examples": [ 
                                         {
                                             "h_example": "This is an example.",
