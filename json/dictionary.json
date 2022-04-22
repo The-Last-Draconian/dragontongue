@@ -4,10 +4,32 @@
             "first": "a",
             "second": [
                 {
-                    "secondletter": "a"
+                    "secondletter": "a",
+                    "words": [
+                        {
+                            "name": "actual word"
+                        },
+                        {
+                            "name": "actual word"
+                        },
+                        {
+                            "name": "actual word"
+                        }
+                    ]
                 },
                 {
-                    "secondletter": "b"
+                    "secondletter": "b",
+                    "words": [
+                        {
+                            "name": "actual word"
+                        },
+                        {
+                            "name": "actual word"
+                        },
+                        {
+                            "name": "actual word"
+                        }
+                    ]
                 }
             ]
         },

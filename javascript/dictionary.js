@@ -53,7 +53,32 @@ fetch(requestURL)
                 
                     flDiv.appendChild(slSection);
                     slSection.appendChild(slh3);
-                    slSection.appendChild(test2); 
+                    slSection.appendChild(test2);
+
+                     //WORDS!!!
+                    let wordArray = fldata.words;
+                    console.log(wordArray.length);
+
+                    //make sure there is actually a second letter
+                    if (0 < wordArray.length) {
+                    let wordLimit = wordArray.length;
+                        for (w=0; w < wordLimit; w++) {
+                            let wdata = fldata.words[w];
+
+                            //word div
+                            let wordDiv = document.createElement("div");
+
+                            let wh3 = document.createElement("h3");
+                            wh3.textContent = "test";
+
+                            let test3 = document.createElement("p");
+                            test3.textContent = "this is a definition";
+                        
+                            slSection.appendChild(wordDiv);
+                            wordDiv.appendChild(slh3);
+                            wordDiv.appendChild(test3); 
+                        }
+                    }
                 }
             }
 
