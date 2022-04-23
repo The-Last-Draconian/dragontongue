@@ -7,7 +7,7 @@
                     "secondletter": "a",
                     "words": [
                         {
-                            "name": "Ae",
+                            "name": "\u00E6",
                             "h_pron": "&aacute",
                             "d_pron": "PRONOUNCE",
                             "definition": [
@@ -43,7 +43,7 @@
                             "new": "no"
                         },
                         {
-                            "name": "Acriye&aelig;s",
+                            "name": "Acriye\u00E6s",
                             "h_pron": "pronounce",
                             "d_pron": "PRONOUNCE",
                             "definition": [
@@ -52,7 +52,7 @@
                                     "meaning": "Multiple wind currents; used to describe a region of sky.",
                                     "examples": [ 
                                         {
-                                            "h_example": "The acriy&aelig;s around the mountain are very strong.",
+                                            "h_example": "The acriye\u00E6s around the mountain are very strong.",
                                             "d_example": "Sa se example."
                                         }
                                     ]
@@ -61,7 +61,7 @@
                             "new": "no"
                         },
                         {
-                            "name": "Acriy&iacute;",
+                            "name": "Acriy\u00ED;",
                             "h_pron": "pronounce",
                             "d_pron": "PRONOUNCE",
                             "definition": [
@@ -85,7 +85,7 @@
                             "definition": [
                                 {
                                     "class": "verb",
-                                    "meaning": "Flying; riding the high wind currents; lit. 'moving like the acriy&aelig;s.'",
+                                    "meaning": "Flying; riding the high wind currents; lit. 'moving like the acriye\u00E6s.'",
                                     "examples": [ 
                                         {
                                             "h_example": "This is an example.",
