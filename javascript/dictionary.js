@@ -22,7 +22,7 @@ fetch(requestURL)
             flDiv.setAttribute("class", "fl-" + fldata.first);
             
             //heading
-            let flh1 = document.createElement("h2");
+            let flh1 = document.createElement("h1");
             flh1.textContent = fldata.first;
 
             //ordering the content
@@ -45,11 +45,11 @@ fetch(requestURL)
                     slSection.setAttribute("id", "sl-" + sldata.secondletter);
                     slSection.setAttribute("class", "sl-" + sldata.secondletter);
 
-                    let slh3 = document.createElement("h3");
-                    slh3.textContent = sldata.secondletter;
+                    let slh2 = document.createElement("h2");
+                    slh2.textContent = sldata.secondletter;
 
                     flDiv.appendChild(slSection);
-                    slSection.appendChild(slh3);
+                    slSection.appendChild(slh2);
 
                     //WORDS!!!
                     let wordArray = sldata.words;
@@ -63,8 +63,8 @@ fetch(requestURL)
                         let wordDiv = document.createElement("div");
                         wordDiv.setAttribute("class", "word-div");
 
-                        let wh4 = document.createElement("h4");
-                        wh4.textContent = wdata.name;
+                        let wh3 = document.createElement("h3");
+                        wh3.textContent = wdata.name;
 
                         let hspan = document.createElement("span");
                         hspan.textContent = wdata.h_pron;
@@ -73,7 +73,7 @@ fetch(requestURL)
                         //dspan.textContent = wdata.d_pron;
                     
                         slSection.appendChild(wordDiv);
-                        wordDiv.appendChild(wh4);
+                        wordDiv.appendChild(wh3);
                         wordDiv.appendChild(hspan);
                         //wordDiv.appendChild(dspan);
 
