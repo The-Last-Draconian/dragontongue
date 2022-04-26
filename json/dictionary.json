@@ -8,7 +8,7 @@
                     "words": [
                         {
                             "name": "\u00E6",
-                            "h_pron": "&aacute",
+                            "h_pron": "\u0101",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -26,7 +26,7 @@
                         },
                         {
                             "name": "Acriye",
-                            "h_pron": "pronounce",
+                            "h_pron": "\u018f\u2022kr\u012B'",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -44,7 +44,7 @@
                         },
                         {
                             "name": "Acriye\u00E6s",
-                            "h_pron": "pronounce",
+                            "h_pron": "\u018f\u2022kr\u012B'\u2022\u0101s",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -62,7 +62,7 @@
                         },
                         {
                             "name": "Acriy\u00ED;",
-                            "h_pron": "pronounce",
+                            "h_pron": "\u018f\u2022kr\u012B'\u2022y\u0113",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -80,7 +80,7 @@
                         },
                         {
                             "name": "Acriysin;",
-                            "h_pron": "pronounce",
+                            "h_pron": "\u018f\u2022kr\u012B'\u2022sin",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
