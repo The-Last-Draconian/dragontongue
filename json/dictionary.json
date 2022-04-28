@@ -43,7 +43,7 @@
                             "new": "no"
                         },
                         {
-                            "name": "Acriy\u00ED;",
+                            "name": "Acriy\u00ED",
                             "h_pron": "\u0259\u2022kr\u012B'\u2022y\u0113",
                             "d_pron": "PRONOUNCE",
                             "definition": [
@@ -61,7 +61,7 @@
                             "new": "no"
                         },
                         {
-                            "name": "Acriysin;",
+                            "name": "Acriysin",
                             "h_pron": "\u0259\u2022kr\u012B'\u2022sin",
                             "d_pron": "PRONOUNCE",
                             "definition": [
@@ -108,7 +108,7 @@
                     "words": [
                         {
                             "name": "Akrie",
-                            "h_pron": "ə•krē'",
+                            "h_pron": "\u0259\u2022kr\u0113'",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -126,7 +126,7 @@
                         },
                         {
                             "name": "Akries",
-                            "h_pron": "ə•krēs'",
+                            "h_pron": "\u0259\u2022kr\u0113s'",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -144,7 +144,7 @@
                         },
                         {
                             "name": "Akriescrim",
-                            "h_pron": "ə•krē'•skrim",
+                            "h_pron": "\u0259\u2022kr\u0113'\u2022skrim",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -162,7 +162,7 @@
                         },
                         {
                             "name": "Akriesyn",
-                            "h_pron": "ə•krē'•sin",
+                            "h_pron": "\u0259\u2022kr\u0113'\u2022sin",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -185,7 +185,7 @@
                     "words": [
                         {
                             "name": "Ala'cgha",
-                            "h_pron": "ă'•lə•ghä'",
+                            "h_pron": "\u01CD'\u2022l\u0259\u2022gh\u00E4'",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -203,7 +203,7 @@
                         },
                         {
                             "name": "Ala'kree",
-                            "h_pron": "ă'•lə•krē'",
+                            "h_pron": "\u01CD'\u2022l\u0259\u2022kr\u0113'",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -221,7 +221,7 @@
                         },
                         {
                             "name": "Ala'thu",
-                            "h_pron": "ă'•lə•thū'",
+                            "h_pron": "\u01CD'\u2022l\u0259\u2022th\u016B'",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -239,7 +239,7 @@
                         },
                         {
                             "name": "Alksin",
-                            "h_pron": "älk'•sin",
+                            "h_pron": "\u00E4lk'\u2022sin",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -256,8 +256,8 @@
                             "new": "no"
                         },
                         {
-                            "name": "Alksiné",
-                            "h_pron": "älk'•sin•ĕ",
+                            "name": "Alksin\u00E9",
+                            "h_pron": "\u00E4lk'\u2022sin\u2022ĕ",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -280,7 +280,7 @@
                     "words": [
                         {
                             "name": "Ayuk",
-                            "h_pron": "ă•yūk'",
+                            "h_pron": "\u01CD\u2022y\u016Bk'",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -297,8 +297,8 @@
                             "new": "no"
                         },
                         {
-                            "name": "Ayuk-kijaiyæ",
-                            "h_pron": "ă•yūk'•kī'•yī•yā'",
+                            "name": "Ayuk-kijaiy\u00E6",
+                            "h_pron": "\u01CD\u2022y\u016Bk'\u2022k\u012B'\u2022y\u012B\u2022y\u0101'",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -316,7 +316,7 @@
                         },
                         {
                             "name": "Ayuk-kijaiyah",
-                            "h_pron": "ă•yūk'•kī'•yī•yä'",
+                            "h_pron": "\u01CD\u2022y\u016Bk'\u2022k\u012B'\u2022y\u012B\u2022y\u00E4'",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -343,8 +343,8 @@
                     "secondletter": "h",
                     "words": [
                         {
-                            "name": "-bhí",
-                            "h_pron": "vē",
+                            "name": "-bh\u00ED",
+                            "h_pron": "v\u0113",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -367,7 +367,7 @@
                     "words": [
                         {
                             "name": "Bura",
-                            "h_pron": "byū'•rə",
+                            "h_pron": "by\u016B'\u2022r\u0259",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -390,7 +390,7 @@
                     "words": [
                         {
                             "name": "Bythe",
-                            "h_pron": "bīth",
+                            "h_pron": "b\u012Bth",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
