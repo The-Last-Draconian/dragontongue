@@ -4,26 +4,8 @@
             "first": "a",
             "second": [
                 {
-                    "secondletter": "a",
+                    "secondletter": "c",
                     "words": [
-                        {
-                            "name": "\u00E6",
-                            "h_pron": "\u0101",
-                            "d_pron": "PRONOUNCE",
-                            "definition": [
-                                {
-                                    "class": "conjunction",
-                                    "meaning": "And, also.",
-                                    "examples": [ 
-                                        {
-                                            "h_example": "This is an example.",
-                                            "d_example": "Sa se example."
-                                        }
-                                    ]
-                                }
-                            ],
-                            "new": "no"
-                        },
                         {
                             "name": "Acriye",
                             "h_pron": "\u0259\u2022kr\u012B'",
@@ -99,116 +81,16 @@
                     ]
                 },
                 {
-                    "secondletter": "b",
+                    "secondletter": "e",
                     "words": [
                         {
-                            "name": "actual word",
-                            "h_pron": "pronounce",
+                            "name": "\u00E6",
+                            "h_pron": "\u0101",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
-                                    "class": "classification.",
-                                    "meaning": "definition of word.",
-                                    "examples": [ 
-                                        {
-                                            "h_example": "This is an example.",
-                                            "d_example": "Sa se example."
-                                        }
-                                    ]
-                                }
-                            ],
-                            "new": "no"
-                        },
-                        {
-                            "name": "actual word",
-                            "h_pron": "",
-                            "d_pron": "",
-                            "definition": [
-                                {
-                                    "class": "classification.",
-                                    "meaning": "definition of word.",
-                                    "examples": [ 
-                                        {
-                                            "h_example": "This is an example.",
-                                            "d_example": "Sa se example."
-                                        }
-                                    ]
-                                }
-                            ],
-                            "new": "no"
-                        },
-                        {
-                            "name": "actual word",
-                            "h_pron": "pronounce",
-                            "d_pron": "PRONOUNCE",
-                            "definition": [
-                                {
-                                    "class": "classification.",
-                                    "meaning": "definition of word.",
-                                    "examples": [ 
-                                        {
-                                            "h_example": "This is an example.",
-                                            "d_example": "Sa se example."
-                                        }
-                                    ]
-                                }
-                            ],
-                            "new": "no"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "first": "b",
-            "second": [
-                {
-                    "secondletter": "a",
-                    "words": [
-                        {
-                            "name": "actual word",
-                            "h_pron": "pronounce",
-                            "d_pron": "PRONOUNCE",
-                            "definition": [
-                                {
-                                    "class": "classification.",
-                                    "meaning": "definition of word.",
-                                    "examples": [ 
-                                        {
-                                            "h_example": "This is an example.",
-                                            "d_example": "Sa se example."
-                                        }
-                                    ]
-                                }
-                            ],
-                            "new": "no"
-                        },
-                        {
-                            "name": "actual word",
-                            "h_pron": "pronounce",
-                            "d_pron": "PRONOUNCE",
-                            "definition": [
-                                {
-                                    "class": "classification.",
-                                    "meaning": "definition of word.",
-                                    "examples": [ 
-                                        {
-                                            "h_example": "This is an example.",
-                                            "d_example": "Sa se example."
-                                        }
-                                    ]
-                                }
-                            ],
-                            "new": "no"
-                        },
-                        {
-                            "name": "actual word",
-                            "h_pron": "pronounce",
-                            "d_pron": "PRONOUNCE",
-                            "definition": [
-                                {
-                                    "class": "classification.",
-                                    "meaning": "definition of word.",
+                                    "class": "conjunction",
+                                    "meaning": "And, also.",
                                     "examples": [ 
                                         {
                                             "h_example": "This is an example.",
@@ -222,16 +104,16 @@
                     ]
                 },
                 {
-                    "secondletter": "b",
+                    "secondletter": "k",
                     "words": [
                         {
-                            "name": "actual word",
-                            "h_pron": "pronounce",
+                            "name": "Akrie",
+                            "h_pron": "ə•krē'",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
-                                    "class": "classification.",
-                                    "meaning": "definition of word.",
+                                    "class": "noun",
+                                    "meaning": "A wing.",
                                     "examples": [ 
                                         {
                                             "h_example": "This is an example.",
@@ -243,13 +125,13 @@
                             "new": "no"
                         },
                         {
-                            "name": "actual word",
-                            "h_pron": "pronounce",
+                            "name": "Akries",
+                            "h_pron": "ə•krēs'",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
-                                    "class": "classification.",
-                                    "meaning": "definition of word.",
+                                    "class": "plural noun",
+                                    "meaning": "A pair of wings.",
                                     "examples": [ 
                                         {
                                             "h_example": "This is an example.",
@@ -261,13 +143,259 @@
                             "new": "no"
                         },
                         {
-                            "name": "actual word",
-                            "h_pron": "pronounce",
+                            "name": "Akriescrim",
+                            "h_pron": "ə•krē'•skrim",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
-                                    "class": "classification.",
+                                    "class": "noun",
+                                    "meaning": "Any small, winged creature (bats, birds, etc.); lit. 'winged rodent.'",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "Akriesyn",
+                            "h_pron": "ə•krē'•sin",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "verb",
+                                    "meaning": "Flying low to the ground, lit. 'moving with wings.'",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        }
+                    ]
+                },
+                {
+                    "secondletter": "l",
+                    "words": [
+                        {
+                            "name": "Ala'cgha",
+                            "h_pron": "ă'•lə•ghä'",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "adjective",
+                                    "meaning": "Mine; lit. ‘under my protection.’ Used for living things or places, things that cannot be physically owned.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "Ala'kree",
+                            "h_pron": "ă'•lə•krē'",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "adjective",
+                                    "meaning": "Theirs, plural; lit. 'under their protection.' Used for living things or places, things that cannot be physically owned.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "Ala'thu",
+                            "h_pron": "ă'•lə•thū'",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "adjective",
+                                    "meaning": "Yours, singular; lit. ‘under your protection.’ Used for living things or places, things that cannot be physically owned.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "Alksin",
+                            "h_pron": "älk'•sin",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "noun",
+                                    "meaning": "Seal. Usually used for any swimming, 'barking' animal (walrus, sea lion, etc.).",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "Alksiné",
+                            "h_pron": "älk'•sin•ĕ",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "adjective",
+                                    "meaning": "Seal-like.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        }
+                    ]
+                },
+                {
+                    "secondletter": "y",
+                    "words": [
+                        {
+                            "name": "Ayuk",
+                            "h_pron": "ă•yūk'",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "concept, sensation",
+                                    "meaning": "Gratitude; thanks; praise; prayer.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "Ayuk-kijaiyæ",
+                            "h_pron": "ă•yūk'•kī'•yī•yā'",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "concept, sensation",
+                                    "meaning": "Two sensations. Together, they express the sentiment 'Thank thee for joy.'",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "Ayuk-kijaiyah",
+                            "h_pron": "ă•yūk'•kī'•yī•yä'",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "concept, sensation",
+                                    "meaning": "Two sensations. Together, they express the sentiment 'Thank thee for freedom.'",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        }
+                    ]
+                }    
+            ]
+        },
+        {
+            "first": "b",
+            "second": [
+                {
+                    "secondletter": "h",
+                    "words": [
+                        {
+                            "name": "-bhí",
+                            "h_pron": "vē",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "suffix",
                                     "meaning": "definition of word.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "Added to the end of a noun to designate the name of a female dragon.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        }
+                    ]
+                },
+                {
+                    "secondletter": "u",
+                    "words": [
+                        {
+                            "name": "Bura",
+                            "h_pron": "byū'•rə",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "adjective",
+                                    "meaning": "Red; the color of berries.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        }
+                    ]
+                },
+                {
+                    "secondletter": "y",
+                    "words": [
+                        {
+                            "name": "Bythe",
+                            "h_pron": "bīth",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "noun",
+                                    "meaning": "Rolling hills.",
                                     "examples": [ 
                                         {
                                             "h_example": "This is an example.",
@@ -347,6 +475,79 @@
                 {
                     "secondletter": "b",
                     "words": [
+                        {
+                            "name": "actual word",
+                            "h_pron": "pronounce",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "classification.",
+                                    "meaning": "definition of word.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "actual word",
+                            "h_pron": "pronounce",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "classification.",
+                                    "meaning": "definition of word.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "actual word",
+                            "h_pron": "pronounce",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "classification.",
+                                    "meaning": "definition of word.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            
+                            "new": "no"
+                        },
+                        {
+                            "name": "actual word",
+                            "h_pron": "pronounce",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "classification.",
+                                    "meaning": "definition of word.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
                         {
                             "name": "actual word",
                             "h_pron": "pronounce",
