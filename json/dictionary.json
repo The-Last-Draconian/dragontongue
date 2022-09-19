@@ -257,7 +257,7 @@
                         },
                         {
                             "name": "Alksin\u00E9",
-                            "h_pron": "\u00E4lk'\u2022sin\u2022ĕ",
+                            "h_pron": "\u00E4lk'\u2022sin\u2022\u0115",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -418,7 +418,7 @@
                     "words": [
                         {
                             "name": "Cgha",
-                            "h_pron": "ghä",
+                            "h_pron": "gh\u00E4",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -435,8 +435,8 @@
                             "new": "no"
                         },
                         {
-                            "name": "Cghé",
-                            "h_pron": "ghĕ",
+                            "name": "Cgh\u00E9",
+                            "h_pron": "gh\u0115",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -464,7 +464,7 @@
                         },
                         {
                             "name": "Cghon",
-                            "h_pron": "ghōn",
+                            "h_pron": "gh\u014Dn",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -481,8 +481,8 @@
                             "new": "no"
                         },
                         {
-                            "name": "Cghoné",
-                            "h_pron": "ghōn'•ĕ",
+                            "name": "Cghon\u00E9",
+                            "h_pron": "ghōn'\u2022\u0115",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -510,7 +510,7 @@
                     "words": [
                         {
                             "name": "-da",
-                            "h_pron": "dä",
+                            "h_pron": "d\u00E4",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -527,8 +527,8 @@
                             "new": "no"
                         },
                         {
-                            "name": "Dæ",
-                            "h_pron": "dā",
+                            "name": "D\u00E6",
+                            "h_pron": "d\u0101",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -551,7 +551,7 @@
                     "words": [
                         {
                             "name": "Doon",
-                            "h_pron": "dūn",
+                            "h_pron": "d\u016Bn",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -573,8 +573,8 @@
                     "secondletter": "r",
                     "words": [
                         {
-                            "name": "Dræin",
-                            "h_pron": "drāin",
+                            "name": "Dr\u00E6in",
+                            "h_pron": "dr\u0101in",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -591,8 +591,8 @@
                             "new": "no"
                         },
                         {
-                            "name": "Dræiné",
-                            "h_pron": "drāin'•ĕ",
+                            "name": "Dr\u00E6in\u00E9",
+                            "h_pron": "dr\u0101in'\u2022\u0115",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -620,7 +620,7 @@
                         },
                         {
                             "name": "Drikk-ik-tikk",
-                            "h_pron": "j'rik'•ik•tik",
+                            "h_pron": "j'rik'\u2022ik\u2022tik",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -637,8 +637,8 @@
                             "new": "no"
                         },
                         {
-                            "name": "Drikk-ik-tikké",
-                            "h_pron": "j'rik'•ik•tik'•ĕ",
+                            "name": "Drikk-ik-tikk\u00E9",
+                            "h_pron": "j'rik'\u2022ik\u2022tik'\u2022\u0115",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -665,8 +665,8 @@
                             "new": "no"
                         },
                         {
-                            "name": "Drókk",
-                            "h_pron": "drŏk",
+                            "name": "Dr\u00F3kk",
+                            "h_pron": "dr\u014Fk",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -689,7 +689,7 @@
                     "words": [
                         {
                             "name": "Dur",
-                            "h_pron": "dyūr",
+                            "h_pron": "dy\u016Br",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -707,7 +707,7 @@
                         },
                         {
                             "name": "Dur'thrid",
-                            "h_pron": "dyūr'•thrid",
+                            "h_pron": "dy\u016Br'\u2022thrid",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -725,7 +725,7 @@
                         },
                         {
                             "name": "Dura",
-                            "h_pron": "dyū'•rə",
+                            "h_pron": "dy\u016B'\u2022r\u0259",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -753,7 +753,7 @@
                     "words": [
                         {
                             "name": "Eildwyn",
-                            "h_pron": "īl'd•win",
+                            "h_pron": "\u012Bl'd\u2022win",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -775,8 +775,8 @@
                     "secondletter": "k",
                     "words": [
                         {
-                            "name": "Eké eké",
-                            "h_pron": "eh'•keh eh'•keh",
+                            "name": "Ek\u00E9 ek\u00E9",
+                            "h_pron": "eh'\u2022keh eh'\u2022keh",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
