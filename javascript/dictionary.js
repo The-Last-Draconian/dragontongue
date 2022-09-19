@@ -82,9 +82,9 @@ fetch(requestURL)
                         let defArray = wdata.definition;
                         console.log(defArray.length);
 
-                        //make sure there is actually a second letter
+                        //make sure there is actually a second definition
                         if (1 < defArray.length) {
-                        let secondLimit = defArray.length;
+                        let defLimit = defArray.length;
                             for (d=0; d < defLimit; d++) {
                                 let defdata = wdata.definition[d];
 
