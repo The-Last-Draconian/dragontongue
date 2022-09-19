@@ -190,7 +190,7 @@
                             "definition": [
                                 {
                                     "class": "adjective",
-                                    "meaning": "Mine; lit. ‘under my protection.’ Used for living things or places, things that cannot be physically owned.",
+                                    "meaning": "Mine; lit. 'under my protection.' Used for living things or places, things that cannot be physically owned.",
                                     "examples": [ 
                                         {
                                             "h_example": "This is an example.",
@@ -349,10 +349,10 @@
                             "definition": [
                                 {
                                     "class": "suffix",
-                                    "meaning": "definition of word.",
+                                    "meaning": "Added to the end of a noun to designate the name of a female dragon.",
                                     "examples": [ 
                                         {
-                                            "h_example": "Added to the end of a noun to designate the name of a female dragon.",
+                                            "h_example": "This is an example.",
                                             "d_example": "Sa se example."
                                         }
                                     ]
@@ -414,16 +414,108 @@
             "first": "c",
             "second": [
                 {
+                    "secondletter": "g",
+                    "words": [
+                        {
+                            "name": "Cgha",
+                            "h_pron": "ghä",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "pronoun",
+                                    "meaning": "I; me. Used to refer to self.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "Cghé",
+                            "h_pron": "ghĕ",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "adjective",
+                                    "meaning": "Me-like; similar to self.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "class": "adjective",
+                                    "meaning": "Belonging to me.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "Cghon",
+                            "h_pron": "ghōn",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "noun",
+                                    "meaning": "Home, homeland; the place you were born or came from.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "Cghoné",
+                            "h_pron": "ghōn'•ĕ",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "adjective",
+                                    "meaning": "Of or from homeland. Can also be used to denote a home-like, comforting familiarity.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "first": "d",
+            "second": [
+                {
                     "secondletter": "a",
                     "words": [
                         {
-                            "name": "actual word",
-                            "h_pron": "pronounce",
+                            "name": "-da",
+                            "h_pron": "dä",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
-                                    "class": "classification.",
-                                    "meaning": "definition of word.",
+                                    "class": "suffix",
+                                    "meaning": "Added to the end of an adjective to designate the name of a male human.",
                                     "examples": [ 
                                         {
                                             "h_example": "This is an example.",
@@ -435,31 +527,13 @@
                             "new": "no"
                         },
                         {
-                            "name": "actual word",
-                            "h_pron": "pronounce",
+                            "name": "Dæ",
+                            "h_pron": "dā",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
-                                    "class": "classification.",
-                                    "meaning": "definition of word.",
-                                    "examples": [ 
-                                        {
-                                            "h_example": "This is an example.",
-                                            "d_example": "Sa se example."
-                                        }
-                                    ]
-                                }
-                            ],
-                            "new": "no"
-                        },
-                        {
-                            "name": "actual word",
-                            "h_pron": "pronounce",
-                            "d_pron": "PRONOUNCE",
-                            "definition": [
-                                {
-                                    "class": "classification.",
-                                    "meaning": "definition of word.",
+                                    "class": "adjective",
+                                    "meaning": "The; one. Denotes a singular or specific thing.",
                                     "examples": [ 
                                         {
                                             "h_example": "This is an example.",
@@ -473,16 +547,39 @@
                     ]
                 },
                 {
-                    "secondletter": "b",
+                    "secondletter": "o",
                     "words": [
                         {
-                            "name": "actual word",
-                            "h_pron": "pronounce",
+                            "name": "Doon",
+                            "h_pron": "dūn",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
-                                    "class": "classification.",
-                                    "meaning": "definition of word.",
+                                    "class": "concept, sensation",
+                                    "meaning": "Sharp or aching sadness or melancholy.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        }
+                    ]
+                },
+                {
+                    "secondletter": "r",
+                    "words": [
+                        {
+                            "name": "Dræin",
+                            "h_pron": "drāin",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "noun",
+                                    "meaning": "A draconian.",
                                     "examples": [ 
                                         {
                                             "h_example": "This is an example.",
@@ -494,13 +591,23 @@
                             "new": "no"
                         },
                         {
-                            "name": "actual word",
-                            "h_pron": "pronounce",
+                            "name": "Dræiné",
+                            "h_pron": "drāin'•ĕ",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
-                                    "class": "classification.",
-                                    "meaning": "definition of word.",
+                                    "class": "adj",
+                                    "meaning": "Draconian-like",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "class": "adj",
+                                    "meaning": "Denotes the dialect of Dragonese that is most easily spoken by human tongue.",
                                     "examples": [ 
                                         {
                                             "h_example": "This is an example.",
@@ -512,32 +619,13 @@
                             "new": "no"
                         },
                         {
-                            "name": "actual word",
-                            "h_pron": "pronounce",
+                            "name": "Drikk-ik-tikk",
+                            "h_pron": "j'rik'•ik•tik",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
-                                    "class": "classification.",
-                                    "meaning": "definition of word.",
-                                    "examples": [ 
-                                        {
-                                            "h_example": "This is an example.",
-                                            "d_example": "Sa se example."
-                                        }
-                                    ]
-                                }
-                            ],
-                            
-                            "new": "no"
-                        },
-                        {
-                            "name": "actual word",
-                            "h_pron": "pronounce",
-                            "d_pron": "PRONOUNCE",
-                            "definition": [
-                                {
-                                    "class": "classification.",
-                                    "meaning": "definition of word.",
+                                    "class": "noun",
+                                    "meaning": "Teeth; jaws.",
                                     "examples": [ 
                                         {
                                             "h_example": "This is an example.",
@@ -549,13 +637,23 @@
                             "new": "no"
                         },
                         {
-                            "name": "actual word",
-                            "h_pron": "pronounce",
+                            "name": "Drikk-ik-tikké",
+                            "h_pron": "j'rik'•ik•tik'•ĕ",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
-                                    "class": "classification.",
-                                    "meaning": "definition of word.",
+                                    "class": "adjective",
+                                    "meaning": "Tooth-like; jaw-like.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "class": "concept, sensation",
+                                    "meaning": "Intimidating, aggressive; a warning of violence.",
                                     "examples": [ 
                                         {
                                             "h_example": "This is an example.",
@@ -567,13 +665,36 @@
                             "new": "no"
                         },
                         {
-                            "name": "actual word",
-                            "h_pron": "pronounce",
+                            "name": "Drókk",
+                            "h_pron": "drŏk",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
-                                    "class": "classification.",
-                                    "meaning": "definition of word.",
+                                    "class": "noun",
+                                    "meaning": "Spires of rock found in the mountains.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        }
+                    ]
+                },
+                {
+                    "secondletter": "r",
+                    "words": [
+                        {
+                            "name": "Dur",
+                            "h_pron": "dyūr",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "noun",
+                                    "meaning": "Earth, dirt.",
                                     "examples": [ 
                                         {
                                             "h_example": "This is an example.",
@@ -585,13 +706,82 @@
                             "new": "no"
                         },
                         {
-                            "name": "actual word",
-                            "h_pron": "pronounce",
+                            "name": "Dur'thrid",
+                            "h_pron": "dyūr'•thrid",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
-                                    "class": "classification.",
-                                    "meaning": "definition of word.",
+                                    "class": "noun",
+                                    "meaning": "A path or trail, lit. 'way of earth.'",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "Dura",
+                            "h_pron": "dyū'•rə",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "adjective",
+                                    "meaning": "Brown; the color of earth.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "first": "e",
+            "second": [
+                {
+                    "secondletter": "i",
+                    "words": [
+                        {
+                            "name": "Eildwyn",
+                            "h_pron": "īl'd•win",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "proper noun",
+                                    "meaning": "The Dragontime.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        }
+                    ]
+                },
+                {
+                    "secondletter": "k",
+                    "words": [
+                        {
+                            "name": "Eké eké",
+                            "h_pron": "eh'•keh eh'•keh",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "noun",
+                                    "meaning": "A fox. Lit. 'creature that chitters.'",
                                     "examples": [ 
                                         {
                                             "h_example": "This is an example.",
