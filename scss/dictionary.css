@@ -99,6 +99,7 @@ h2 {
 
 [class*=fl] {
   padding: 10px 10px;
+  margin-bottom: 20px;
 }
 [class*=fl] [class*=sl] {
   margin: 2% 5%;
