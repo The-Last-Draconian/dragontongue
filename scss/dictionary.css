@@ -124,9 +124,6 @@ h2 {
 [class*=fl] .word-div .pronounce ~ div:first-of-type {
   padding-top: 10px;
 }
-[class*=fl] .word-div p {
-  padding-top: 10px;
-}
 [class*=fl] .word-div .order {
   margin-left: 1em;
 }
