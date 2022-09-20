@@ -56,11 +56,7 @@ h2 {
             display: inline;
         }
 
-        span {
-            font-style: italic;
-        }
-
-        span::before {
+        .pronounce::before {
             display: inline;
             content: " | ";
             font-weight: bold;
@@ -70,9 +66,21 @@ h2 {
             margin-top: 5px;
         }
 
-        p {
-            margin-left: 1em;
+        .pronounce ~ div:first-of-type {
             padding-top: 10px;
+        }
+
+        p {
+            padding-top: 10px;
+        }
+
+        .order {
+            margin-left: 1em;
+        }
+
+        .order + p {
+            margin-left: 1em;
+            display: inline;
         }
     }
 }

@@ -67,6 +67,7 @@ fetch(requestURL)
                         wh3.textContent = wdata.name;
 
                         let hspan = document.createElement("span");
+                        hspan.setAttribute("class", "pronounce");
                         hspan.textContent = wdata.h_pron;
 
                         //let dspan = document.createElement("span");
@@ -88,7 +89,7 @@ fetch(requestURL)
                             for (d=0; d < defLimit; d++) {
                                 let defdata = wdata.definition[d];
 
-                                //second-letter section
+                                //definition section
                                 let defDiv = document.createElement("div");
                                 
                                 let h_example = document.createElement("p");
@@ -97,12 +98,18 @@ fetch(requestURL)
                                 let d_example = document.createElement("p");
                                 d_example.textContent = defdata.examples[0].d_example;
 
+                                let number = document.createElement("span");
+                                number.setAttribute("class", "order");
+                                let n = d + 1;
+                                number.textContent = n + "." ;
+
                                 let meaning = document.createElement("p");
                                 meaning.textContent = defdata.meaning;
 
                                 wordDiv.appendChild(defDiv);
                                 //defDiv.appendChild(h_example);
                                 //defDiv.appendChild(h_example);
+                                defDiv.appendChild(number);
                                 defDiv.appendChild(meaning);
                             }
                         } else {

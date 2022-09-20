@@ -113,10 +113,7 @@ h2 {
 [class*=fl] .word-div h3 {
   display: inline;
 }
-[class*=fl] .word-div span {
-  font-style: italic;
-}
-[class*=fl] .word-div span::before {
+[class*=fl] .word-div .pronounce::before {
   display: inline;
   content: " | ";
   font-weight: bold;
@@ -124,9 +121,18 @@ h2 {
 [class*=fl] .word-div div {
   margin-top: 5px;
 }
-[class*=fl] .word-div p {
-  margin-left: 1em;
+[class*=fl] .word-div .pronounce ~ div:first-of-type {
   padding-top: 10px;
+}
+[class*=fl] .word-div p {
+  padding-top: 10px;
+}
+[class*=fl] .word-div .order {
+  margin-left: 1em;
+}
+[class*=fl] .word-div .order + p {
+  margin-left: 1em;
+  display: inline;
 }
 
 #dictionary-nav a {
@@ -159,9 +165,22 @@ span {
   font-size: 1.1em;
 }
 
+.pronounce {
+  font-style: italic;
+}
+
+.order {
+  font-weight: bold;
+}
+
 p {
   font-size: 1.1em;
   line-height: 1.5em;
+  text-indent: 1em;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 [class*=fl], [class*=sl] {
