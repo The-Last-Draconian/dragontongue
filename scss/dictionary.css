@@ -38,6 +38,22 @@ ol, ul {
 }
 
 body {
+  background-color: black;
+}
+
+header {
+  background-color: black;
+}
+
+#dictionary-nav {
+  background-color: #e6b678;
+  border-bottom: 1px #852a00 solid;
+}
+#dictionary-nav a {
+  color: #852a00;
+}
+
+#wrapper {
   background-color: #e6b678;
 }
 
@@ -53,10 +69,24 @@ body {
   margin: 0 auto;
 }
 
+header {
+  margin: 0 auto;
+  text-align: center;
+}
+
 #dictionary-nav {
+  position: sticky;
+  top: 0;
   margin: 0 auto;
   text-align: center;
   padding: 10px;
+}
+#dictionary-nav a {
+  margin: 0 5px;
+}
+
+#wrapper {
+  padding: 25px;
 }
 
 h1 {
@@ -68,7 +98,6 @@ h2 {
 }
 
 [class*=fl] {
-  margin: 25px 25px;
   padding: 10px 10px;
 }
 [class*=fl] [class*=sl] {
@@ -100,7 +129,13 @@ h2 {
 }
 
 #dictionary-nav a {
-  font-size: 1.1em;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#dictionary-nav a:hover {
+  text-decoration: underline;
 }
 
 h1 {

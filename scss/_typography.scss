@@ -4,7 +4,13 @@
 $headerfont: 'Amarante', 'Times New Roman', serif;
 
 #dictionary-nav a {
-    font-size: 1.1em;
+    font-size: 1.2em;;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#dictionary-nav a:hover {
+    text-decoration: underline;
 }
 
 h1 {
