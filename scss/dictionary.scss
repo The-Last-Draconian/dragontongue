@@ -1,0 +1,9 @@
+@import 'reset';
+@import 'colors';
+@import 'layout';
+@import 'typography';
+
+//General styles
+[class*=fl], [class*=sl] {
+    border-radius: 20px;
+}

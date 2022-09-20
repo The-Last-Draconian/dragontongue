@@ -1,0 +1,33 @@
+//TYPOGRAPHY
+
+//Variables
+$headerfont: 'Amarante', 'Times New Roman', serif;
+
+#dictionary-nav a {
+    font-size: 1.1em;
+}
+
+h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: $headerfont;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: $headerfont;
+}
+
+h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+span {
+    font-size: 1.1em;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+}

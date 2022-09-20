@@ -1,0 +1,66 @@
+//LAYOUT
+
+//Grid thingie
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#dictionary-nav {
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+//Spacing
+
+h1 {
+    padding: 10px 0px;
+}
+
+h2 {
+    padding: 10px 10px 0px;
+}
+
+[class*=fl] {
+    margin: 25px 25px;
+    padding: 10px 10px;
+
+    [class*=sl] {
+        margin: 2% 5%;
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    .word-div {
+        padding: 20px 0px;
+        margin: 0px 5%;
+        
+        h3{
+            display: inline;
+        }
+
+        span {
+            font-style: italic;
+        }
+
+        span::before {
+            display: inline;
+            content: " | ";
+            font-weight: bold;
+        }
+
+        div {
+            margin-top: 5px;
+        }
+
+        p {
+            margin-left: 1em;
+            padding-top: 10px;
+        }
+    }
+}
+
+
+
