@@ -191,6 +191,10 @@ div.hide section {
   display: none;
 }
 
+section.hide div {
+  display: none;
+}
+
 * {
   box-sizing: border-box;
 }

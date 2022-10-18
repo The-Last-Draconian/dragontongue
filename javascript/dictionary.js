@@ -20,12 +20,13 @@ fetch(requestURL)
             let flDiv = document.createElement("div");
             flDiv.setAttribute("id", "fl-" + fldata.first);
             flDiv.setAttribute("class", "fl hide");
-            let hideFl = `toggleDiv("fl-${fldata.first}")`;
-            flDiv.setAttribute("onclick", hideFl);
+1
 
             //heading
             let flh1 = document.createElement("h1");
             flh1.textContent = fldata.first;
+            let hideFl = `toggleDiv("fl-${fldata.first}")`;
+            flh1.setAttribute("onclick", hideFl);
 
             //ordering the content
             flDiv.appendChild(flh1);
@@ -45,10 +46,12 @@ fetch(requestURL)
                     //second-letter section
                     let slSection = document.createElement("section");
                     slSection.setAttribute("id", "sl-" + sldata.secondletter);
-                    slSection.setAttribute("class", "sl");
+                    slSection.setAttribute("class", "sl hide");
 
                     let slh2 = document.createElement("h2");
                     slh2.textContent = sldata.secondletter;
+                    let hideSl = `toggleDiv("sl-${sldata.secondletter}")`;
+                    slh2.setAttribute("onclick", hideSl);
 
                     flDiv.appendChild(slSection);
                     slSection.appendChild(slh2);
