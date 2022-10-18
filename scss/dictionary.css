@@ -46,15 +46,25 @@ header {
 }
 
 #dictionary-nav {
-  background-color: #e6b678;
+  background-color: #d7ad75;
   border-bottom: 1px #852a00 solid;
+  background-image: url("../images/background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 #dictionary-nav a {
   color: #852a00;
 }
 
 #wrapper {
-  background-color: #e6b678;
+  background-color: #d7ad75;
+  background-image: url("../images/background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 [class*=fl] {
@@ -134,7 +144,7 @@ h2 {
 }
 
 #dictionary-nav a {
-  font-size: 1.2em;
+  font-size: 1.5em;
   text-transform: uppercase;
   text-decoration: none;
 }
