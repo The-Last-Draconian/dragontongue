@@ -38,9 +38,12 @@ h2 {
     padding: 10px 10px 0px;
 }
 
+
+
 [class*=fl] {
     padding: 10px 10px;
     margin-bottom: 20px;
+    z-index: 0;
 
     [class*=sl] {
         margin: 2% 5%;

@@ -24,9 +24,9 @@ header {
 }
 
 [class*=fl] {
-    border: 5px $color-1 solid;
+    border: 2.5px $color-1 solid;
 
     [class*=sl] {
-        border: 2.5px $color-2 solid;
+        border-left: 2.5px $color-2 solid;
     }
 }

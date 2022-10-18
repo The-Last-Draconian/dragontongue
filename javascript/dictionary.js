@@ -19,8 +19,10 @@ fetch(requestURL)
             //first-letter div
             let flDiv = document.createElement("div");
             flDiv.setAttribute("id", "fl-" + fldata.first);
-            flDiv.setAttribute("class", "fl-" + fldata.first);
-            
+            flDiv.setAttribute("class", "fl hide");
+            let hideFl = `toggleDiv("fl-${fldata.first}")`;
+            flDiv.setAttribute("onclick", hideFl);
+
             //heading
             let flh1 = document.createElement("h1");
             flh1.textContent = fldata.first;
@@ -43,7 +45,7 @@ fetch(requestURL)
                     //second-letter section
                     let slSection = document.createElement("section");
                     slSection.setAttribute("id", "sl-" + sldata.secondletter);
-                    slSection.setAttribute("class", "sl-" + sldata.secondletter);
+                    slSection.setAttribute("class", "sl");
 
                     let slh2 = document.createElement("h2");
                     slh2.textContent = sldata.secondletter;
