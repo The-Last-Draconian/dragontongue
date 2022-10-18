@@ -482,7 +482,7 @@
                         },
                         {
                             "name": "Cghon\u00E9",
-                            "h_pron": "ghōn'\u2022\u0115",
+                            "h_pron": "gh\u014Dn'\u2022\u0115",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -782,6 +782,247 @@
                                 {
                                     "class": "noun",
                                     "meaning": "A fox. Lit. 'creature that chitters.'",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "first": "e",
+            "second": [
+                {
+                    "secondletter": "a",
+                    "words": [
+                        {
+                            "name": "Fadur",
+                            "h_pron": "f\u00E4'\u2022dy\u016Br",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "noun",
+                                    "meaning": "A tree with dark wood or leaves; a dark tree, usually coniferous. Lit. 'dirt tree.'",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "Fadur\u00E9",
+                            "h_pron": "f\u00E4\u2022dy\u016B'\u2022r\u0115",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "adjective",
+                                    "meaning": "Tree-like; similar in some sense to a dark tree.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "Fadures",
+                            "h_pron": "f\u00E4\u2022dy\u016B'\u2022r\u00E9s",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "plural noun",
+                                    "meaning": "Trees, many dark trees; used to designate an area of trees, or a section of forest.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "Fadur\u00ED",
+                            "h_pron": "f\u00E4\u2022dy\u016B'\u2022r\u0113",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "plural noun",
+                                    "meaning": "Too many dark trees to count; used to designate a very large forest or wood.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "Fatha",
+                            "h_pron": "f\u00E4'\u2022th\u0259",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "noun",
+                                    "meaning": "A tree with bright wood or leaves; a bright tree, usually deciduous.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "Fath\u00E9",
+                            "h_pron": "f\u00E4'\u2022th\u0115",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "adjective",
+                                    "meaning": "Tree-like; similar in some sense to a bright tree.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "Fathes",
+                            "h_pron": "f\u00E4'\u2022th\u00E9s",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "plural noun",
+                                    "meaning": "Trees, many bright trees; used to designate an area of trees, or a section of forest.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "Fath\u00ED",
+                            "h_pron": "f\u00E4'\u2022th\u0113",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "plural noun",
+                                    "meaning": "Too many bright trees to count; used to designate a very large forest or wood.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        }
+                    ]
+                },
+                {
+                    "secondletter": "e",
+                    "words": [
+                        {
+                            "name": "fer-",
+                            "h_pron": "f\u00fbr",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "prefix",
+                                    "meaning": "Added to the beginning of verbs to designate the future tense.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        }
+                    ]
+                },
+                {
+                    "secondletter": "r",
+                    "words": [
+                        {
+                            "name": "Fra",
+                            "h_pron": "fr\u00E4",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "concept, sensation",
+                                    "meaning": "Cold; the sensation of lacking heat.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "Fra'kalon",
+                            "h_pron": "fr\u00E4\u2022k\u01CE'\u2022l\u014Dn",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "concept",
+                                    "meaning": "The paranoid feeling of being hunted; prey-fear.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        }
+                    ]
+                },
+                {
+                    "secondletter": "y",
+                    "words": [
+                        {
+                            "name": "Fyore",
+                            "h_pron": "f'y\u00f4r",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "noun",
+                                    "meaning": "A cove or bay; a large inlet in the shoreline.",
                                     "examples": [ 
                                         {
                                             "h_example": "This is an example.",
