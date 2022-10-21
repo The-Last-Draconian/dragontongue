@@ -1,0 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
+[class*=fl], [class*=sl] {
+    border-radius: 20px;
+}

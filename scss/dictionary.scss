@@ -1,15 +1,6 @@
 @import 'reset';
+@import 'basic-styles';
 @import 'colors';
 @import 'layout';
 @import 'typography';
 @import 'toggle';
-
-//General styles
-
-* {
-    box-sizing: border-box;
-}
-
-[class*=fl], [class*=sl] {
-    border-radius: 20px;
-}
