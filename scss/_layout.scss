@@ -9,13 +9,38 @@ $width-S: 300px;
 //Grid thingie
 
 body {
-    max-width: 1000px;
+    max-width: $width-L;
     margin: 0 auto;
 }
 
 header {
     margin: 0 auto;
     text-align: center;
+}
+
+nav {
+    margin: 0 auto;
+    padding: 0px 20px;
+
+    ul {
+        display: flex;
+        padding-left: 0;
+        margin: 0 auto;
+        max-width: 45%;     
+    }
+
+    li {
+        width: 100%;
+    }
+
+    a {
+        display: block;
+        padding: 15px 0px;
+    }
+}
+
+main {
+    max-width: $width-L;
 }
 
 #dictionary-nav {

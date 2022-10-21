@@ -1,33 +1,57 @@
-$background: rgb(215, 173, 117);
+$background: rgb(226, 168, 117);
 $color-1: rgb(47, 91, 0);
 $color-2: rgb(133, 42, 0);
-$backgroundimg: "../images/background.jpg";
+$color-3: black;
+$backgroundimg-small: "../images/background-small.jpg";
+$backgroundimg-large: "../images/background-large.jpg";
+$width-L: 1000px;
+$width-M: 800px;
+$width-S: 300px;
 
 body {
-    background-color: black;
+    background-color: $color-3;
 }
 
 header {
-    background-color: black;
+    color: $color-1;
+    background-color: $color-3;
+}
+
+nav {
+    background-color: darken($color: $color-1, $amount: 10%);
+    a {
+        background-color: none;
+        color: $background;
+    }
+
+    a:hover {
+        //color: lighten($color-2, 40%);
+        background-color: $color-3;
+    }
 }
 
 #dictionary-nav {
     background-color: $background;
     border-bottom: 1px $color-2 solid;
-    background-image: url($backgroundimg);
+    background-image: url($backgroundimg-small);
     background-position: center center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
     background-size: cover;
 
     a {
         color: $color-2;
     }
+
+    a:hover {
+        color: $color-3;
+    }
 }
+
 
 main {
     background-color: $background;
-    background-image: url($backgroundimg);
+    background-image: url($backgroundimg-small);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -40,4 +64,26 @@ main {
     [class*=sl] {
         border-left: 2.5px $color-2 solid;
     }
+
+    h1, h2 {
+      color: black;  
+    }
+
+    h1:hover, h2:hover {
+        color: $color-2;
+    }
+}
+
+@media only screen and (min-width: $width-M) {
+    #dictionary-nav {
+        background-image: url($backgroundimg-large);
+    }
+
+    main {
+        background-image: url($backgroundimg-large);
+    }
+}
+
+footer {
+    color: $background;
 }

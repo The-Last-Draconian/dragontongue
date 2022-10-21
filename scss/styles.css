@@ -38,43 +38,6 @@ ol, ul {
 }
 
 body {
-  background-color: black;
-}
-
-header {
-  background-color: black;
-}
-
-#dictionary-nav {
-  background-color: #d7ad75;
-  border-bottom: 1px #852a00 solid;
-  background-image: url("../images/background.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-#dictionary-nav a {
-  color: #852a00;
-}
-
-main {
-  background-color: #d7ad75;
-  background-image: url("../images/background.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-[class*=fl] {
-  border: 2.5px #2f5b00 solid;
-}
-[class*=fl] [class*=sl] {
-  border-left: 2.5px #852a00 solid;
-}
-
-body {
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -82,6 +45,28 @@ body {
 header {
   margin: 0 auto;
   text-align: center;
+}
+
+nav {
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+nav ul {
+  display: flex;
+  padding-left: 0;
+  margin: 0 auto;
+  max-width: 45%;
+}
+nav li {
+  width: 100%;
+}
+nav a {
+  display: block;
+  padding: 15px 0px;
+}
+
+main {
+  max-width: 1000px;
 }
 
 #dictionary-nav {
@@ -143,14 +128,194 @@ h2 {
   display: inline;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+[class*=fl], [class*=sl] {
+  border-radius: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  color: #2f5b00;
+  background-color: black;
+}
+
+nav {
+  background-color: #152800;
+}
+nav a {
+  background-color: none;
+  color: #e2a875;
+}
+nav a:hover {
+  background-color: black;
+}
+
+#dictionary-nav {
+  background-color: #e2a875;
+  border-bottom: 1px #852a00 solid;
+  background-image: url("../images/background-small.jpg");
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#dictionary-nav a {
+  color: #852a00;
+}
+#dictionary-nav a:hover {
+  color: black;
+}
+
+main {
+  background-color: #e2a875;
+  background-image: url("../images/background-small.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+[class*=fl] {
+  border: 2.5px #2f5b00 solid;
+}
+[class*=fl] [class*=sl] {
+  border-left: 2.5px #852a00 solid;
+}
+[class*=fl] h1, [class*=fl] h2 {
+  color: black;
+}
+[class*=fl] h1:hover, [class*=fl] h2:hover {
+  color: #852a00;
+}
+
+@media only screen and (min-width: 800px) {
+  #dictionary-nav {
+    background-image: url("../images/background-large.jpg");
+  }
+
+  main {
+    background-image: url("../images/background-large.jpg");
+  }
+}
+footer {
+  color: #e2a875;
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav {
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+nav ul {
+  display: flex;
+  padding-left: 0;
+  margin: 0 auto;
+  max-width: 45%;
+}
+nav li {
+  width: 100%;
+}
+nav a {
+  display: block;
+  padding: 15px 0px;
+}
+
+main {
+  max-width: 1000px;
+}
+
+#dictionary-nav {
+  position: sticky;
+  top: 0;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+#dictionary-nav a {
+  margin: 0 5px;
+}
+
+#wrapper {
+  padding: 25px;
+}
+
+h1 {
+  padding: 10px 0px;
+}
+
+h2 {
+  padding: 10px 10px 0px;
+}
+
+[class*=fl] {
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  z-index: 0;
+}
+[class*=fl] [class*=sl] {
+  margin: 2% 5%;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+[class*=fl] .word-div {
+  padding: 20px 0px;
+  margin: 0px 5%;
+}
+[class*=fl] .word-div h3 {
+  display: inline;
+}
+[class*=fl] .word-div .pronounce::before {
+  display: inline;
+  content: " | ";
+  font-weight: bold;
+}
+[class*=fl] .word-div div {
+  margin-top: 5px;
+}
+[class*=fl] .word-div .pronounce ~ div:first-of-type {
+  padding-top: 10px;
+}
+[class*=fl] .word-div .order {
+  margin-left: 1em;
+}
+[class*=fl] .word-div .order + p {
+  margin-left: 1em;
+  display: inline;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  font-family: "Amarante", "Times New Roman", serif;
+  font-size: 1em;
+}
+
 #dictionary-nav a {
   font-size: 1.5em;
   text-transform: uppercase;
   text-decoration: none;
-}
-
-#dictionary-nav a:hover {
-  text-decoration: underline;
 }
 
 h1 {
@@ -187,6 +352,10 @@ p {
   text-indent: 1em;
 }
 
+a {
+  text-decoration: none;
+}
+
 div.hide section {
   display: none;
 }
@@ -195,12 +364,4 @@ section.hide div {
   display: none;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-[class*=fl], [class*=sl] {
-  border-radius: 20px;
-}
-
-/*# sourceMappingURL=dictionary.css.map */
+/*# sourceMappingURL=styles.css.map */

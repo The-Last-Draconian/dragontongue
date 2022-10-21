@@ -3,14 +3,24 @@
 //Variables
 $headerfont: 'Amarante', 'Times New Roman', serif;
 
+
+nav {
+    ul {
+        list-style-type: none;
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none; 
+        font-family: $headerfont;
+        font-size: 1em;
+    }
+}
+
 #dictionary-nav a {
     font-size: 1.5em;;
     text-transform: uppercase;
     text-decoration: none;
-}
-
-#dictionary-nav a:hover {
-    text-decoration: underline;
 }
 
 h1 {
@@ -46,4 +56,8 @@ p {
     font-size: 1.1em;
     line-height: 1.5em;
     text-indent: 1em;
+}
+
+a {
+    text-decoration: none;
 }
