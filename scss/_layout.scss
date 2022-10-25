@@ -39,7 +39,7 @@ nav {
     }
 }
 
-main {
+main, footer {
     max-width: $width-L;
     padding: 25px;
 }
@@ -57,14 +57,11 @@ main {
 }
 
 //Spacing
-
-h1 {
-    padding: 10px 0px;
+h1, h2, h3, p{
+    margin-bottom: 10px;
 }
 
-h2 {
-    padding: 10px 10px 0px;
-}
+
 
 
 
@@ -72,25 +69,39 @@ h2 {
     padding: 10px 10px;
     margin-bottom: 20px;
     z-index: 0;
+    h1 {
+        padding: 10px 0px;
+        margin-bottom: 0px;
+    }
 
     [class*=sl] {
         margin: 2% 5%;
         padding-top: 0px;
         padding-bottom: 20px;
+
+        h2 {
+            padding: 10px 10px 0px;
+            margin-bottom: 0px;
+        }   
     }
 
     .word-div {
-        padding: 20px 0px;
+        padding: 16px 0px;
         margin: 0px 5%;
         
         h3{
             display: inline;
+            margin-bottom: 0px;
         }
 
         .pronounce::before {
             display: inline;
             content: " | ";
             font-weight: bold;
+        }
+        
+        p {
+            margin-bottom: 0px;
         }
 
         div {
@@ -113,4 +124,10 @@ h2 {
 }
 
 
+
+footer {
+    > a {
+        float: right;
+    }
+}
 

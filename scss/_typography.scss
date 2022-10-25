@@ -1,7 +1,7 @@
 //TYPOGRAPHY
 
 //Variables
-$headerfont: 'Amarante', 'Times New Roman', serif;
+$font-1: 'Amarante', 'Times New Roman', serif;
 
 
 nav {
@@ -11,36 +11,39 @@ nav {
     }
 
     a {
-        text-decoration: none; 
-        font-family: $headerfont;
-        font-size: 1em;
+        font-family: $font-1;
+        font-size: 16px;
+    }
+
+    a:hover {
+        text-decoration: none;
     }
 }
 
 #dictionary-nav a {
-    font-size: 1.5em;;
+    font-size: 24px;
     text-transform: uppercase;
     text-decoration: none;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 48px;
     text-transform: uppercase;
-    font-family: $headerfont;
+    font-family: $font-1;
 }
 
 h2 {
-    font-size: 2em;
-    font-family: $headerfont;
+    font-size: 36px;
+    font-family: $font-1;
 }
 
 h3 {
-    font-size: 1.1em;
+    font-size: 18px;
     font-weight: bold;
 }
 
 span {
-    font-size: 1.1em;
+    font-size: 16px;
 }
 
 
@@ -53,11 +56,34 @@ span {
 }
 
 p {
-    font-size: 1.1em;
-    line-height: 1.5em;
-    text-indent: 1em;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.word-div p {
+    text-indent: 16px;
 }
 
 a {
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+
+    span, a, p {
+        font-size: 12px;
+    }
+    
+    a {
+        text-decoration: underline;
+    }
+
+    > a {
+        text-decoration: none;
+        font-size: 14px;
+    }
 }

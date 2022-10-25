@@ -86,4 +86,11 @@ main {
 
 footer {
     color: $background;
+    a {
+        color: $background;
+    }
+
+    > a {
+        color: lighten($color-2, 30%)
+    }
 }

@@ -1036,6 +1036,134 @@
                     ]
                 }
             ]
+        },
+        {
+            "first": "g",
+            "second": [
+                {
+                    "secondletter": "a",
+                    "words": [
+                        {
+                            "name": "name",
+                            "h_pron": "pronounce",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "class",
+                                    "meaning": "meaning",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "name",
+                            "h_pron": "pronounce",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "class",
+                                    "meaning": "meaning",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        }
+                    ]
+                },
+                {
+                    "secondletter": "r",
+                    "words": [
+                        {
+                            "name": "name",
+                            "h_pron": "pronounce",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "class",
+                                    "meaning": "meaning",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "name",
+                            "h_pron": "pronounce",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "class",
+                                    "meaning": "meaning",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        }
+                    ]
+                },
+                {
+                    "secondletter": "u",
+                    "words": [
+                        {
+                            "name": "name",
+                            "h_pron": "pronounce",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "class",
+                                    "meaning": "meaning",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "name",
+                            "h_pron": "pronounce",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "class",
+                                    "meaning": "meaning",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

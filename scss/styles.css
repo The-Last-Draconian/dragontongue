@@ -65,7 +65,7 @@ nav a {
   padding: 15px 0px;
 }
 
-main {
+main, footer {
   max-width: 1000px;
   padding: 25px;
 }
@@ -81,12 +81,8 @@ main {
   margin: 0 5px;
 }
 
-h1 {
-  padding: 10px 0px;
-}
-
-h2 {
-  padding: 10px 10px 0px;
+h1, h2, h3, p {
+  margin-bottom: 10px;
 }
 
 [class*=fl] {
@@ -94,22 +90,34 @@ h2 {
   margin-bottom: 20px;
   z-index: 0;
 }
+[class*=fl] h1 {
+  padding: 10px 0px;
+  margin-bottom: 0px;
+}
 [class*=fl] [class*=sl] {
   margin: 2% 5%;
   padding-top: 0px;
   padding-bottom: 20px;
 }
+[class*=fl] [class*=sl] h2 {
+  padding: 10px 10px 0px;
+  margin-bottom: 0px;
+}
 [class*=fl] .word-div {
-  padding: 20px 0px;
+  padding: 16px 0px;
   margin: 0px 5%;
 }
 [class*=fl] .word-div h3 {
   display: inline;
+  margin-bottom: 0px;
 }
 [class*=fl] .word-div .pronounce::before {
   display: inline;
   content: " | ";
   font-weight: bold;
+}
+[class*=fl] .word-div p {
+  margin-bottom: 0px;
 }
 [class*=fl] .word-div div {
   margin-top: 5px;
@@ -123,6 +131,10 @@ h2 {
 [class*=fl] .word-div .order + p {
   margin-left: 1em;
   display: inline;
+}
+
+footer > a {
+  float: right;
 }
 
 * {
@@ -207,6 +219,12 @@ main {
 footer {
   color: #e2a875;
 }
+footer a {
+  color: #e2a875;
+}
+footer > a {
+  color: #ff661f;
+}
 
 body {
   max-width: 1000px;
@@ -236,7 +254,7 @@ nav a {
   padding: 15px 0px;
 }
 
-main {
+main, footer {
   max-width: 1000px;
   padding: 25px;
 }
@@ -252,12 +270,8 @@ main {
   margin: 0 5px;
 }
 
-h1 {
-  padding: 10px 0px;
-}
-
-h2 {
-  padding: 10px 10px 0px;
+h1, h2, h3, p {
+  margin-bottom: 10px;
 }
 
 [class*=fl] {
@@ -265,22 +279,34 @@ h2 {
   margin-bottom: 20px;
   z-index: 0;
 }
+[class*=fl] h1 {
+  padding: 10px 0px;
+  margin-bottom: 0px;
+}
 [class*=fl] [class*=sl] {
   margin: 2% 5%;
   padding-top: 0px;
   padding-bottom: 20px;
 }
+[class*=fl] [class*=sl] h2 {
+  padding: 10px 10px 0px;
+  margin-bottom: 0px;
+}
 [class*=fl] .word-div {
-  padding: 20px 0px;
+  padding: 16px 0px;
   margin: 0px 5%;
 }
 [class*=fl] .word-div h3 {
   display: inline;
+  margin-bottom: 0px;
 }
 [class*=fl] .word-div .pronounce::before {
   display: inline;
   content: " | ";
   font-weight: bold;
+}
+[class*=fl] .word-div p {
+  margin-bottom: 0px;
 }
 [class*=fl] .word-div div {
   margin-top: 5px;
@@ -296,40 +322,46 @@ h2 {
   display: inline;
 }
 
+footer > a {
+  float: right;
+}
+
 nav ul {
   list-style-type: none;
   text-align: center;
 }
 nav a {
-  text-decoration: none;
   font-family: "Amarante", "Times New Roman", serif;
-  font-size: 1em;
+  font-size: 16px;
+}
+nav a:hover {
+  text-decoration: none;
 }
 
 #dictionary-nav a {
-  font-size: 1.5em;
+  font-size: 24px;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 48px;
   text-transform: uppercase;
   font-family: "Amarante", "Times New Roman", serif;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 36px;
   font-family: "Amarante", "Times New Roman", serif;
 }
 
 h3 {
-  font-size: 1.1em;
+  font-size: 18px;
   font-weight: bold;
 }
 
 span {
-  font-size: 1.1em;
+  font-size: 16px;
 }
 
 .pronounce {
@@ -341,13 +373,31 @@ span {
 }
 
 p {
-  font-size: 1.1em;
-  line-height: 1.5em;
-  text-indent: 1em;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.word-div p {
+  text-indent: 16px;
 }
 
 a {
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer span, footer a, footer p {
+  font-size: 12px;
+}
+footer a {
+  text-decoration: underline;
+}
+footer > a {
+  text-decoration: none;
+  font-size: 14px;
 }
 
 div.hide section {
