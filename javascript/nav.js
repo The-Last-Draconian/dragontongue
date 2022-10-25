@@ -20,7 +20,7 @@ fetch(requestURL)
             let navlink = document.createElement("a");
             navlink.setAttribute("id", fldata.first);
             navlink.setAttribute("class", "nav");
-            navlink.setAttribute("href", "#fl-" + fldata.first);
+            navlink.setAttribute("href", `#fl${fldata.first}`);
 
             //text content
             navlink.textContent = fldata.first;
