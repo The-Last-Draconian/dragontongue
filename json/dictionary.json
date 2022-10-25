@@ -184,8 +184,44 @@
                     "secondletter": "l",
                     "words": [
                         {
+                            "name": "Ala-",
+                            "h_pron": "ă'•lə",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "preposition",
+                                    "meaning": " Under, beneath.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
                             "name": "Ala'cgha",
                             "h_pron": "\u01CE'\u2022l\u0259\u2022gh\u00E4'",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "prepositional phrase",
+                                    "meaning": "Under me; beneath me.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "Ala'cghé",
+                            "h_pron": "ă'•lə•ghĕ'",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
@@ -1044,13 +1080,13 @@
                     "secondletter": "a",
                     "words": [
                         {
-                            "name": "name",
-                            "h_pron": "pronounce",
+                            "name": "Gach",
+                            "h_pron": "gäkh",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
-                                    "class": "class",
-                                    "meaning": "meaning",
+                                    "class": "noun",
+                                    "meaning": "A large, noticeable protrusion of rock or earth. Usually a mountain or large hill, but can be used for cliffs.",
                                     "examples": [ 
                                         {
                                             "h_example": "This is an example.",
@@ -1062,13 +1098,13 @@
                             "new": "no"
                         },
                         {
-                            "name": "name",
-                            "h_pron": "pronounce",
+                            "name": "Gach'thrid",
+                            "h_pron": "gäkh'•thrid",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
-                                    "class": "class",
-                                    "meaning": "meaning",
+                                    "class": "noun",
+                                    "meaning": "A mountain range, literally 'path of mountains.'",
                                     "examples": [ 
                                         {
                                             "h_example": "This is an example.",
@@ -1085,13 +1121,13 @@
                     "secondletter": "r",
                     "words": [
                         {
-                            "name": "name",
-                            "h_pron": "pronounce",
+                            "name": "Grou'kra",
+                            "h_pron": "grăô•krä'",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
-                                    "class": "class",
-                                    "meaning": "meaning",
+                                    "class": "concept",
+                                    "meaning": "Strength of heart; strong morals.",
                                     "examples": [ 
                                         {
                                             "h_example": "This is an example.",
@@ -1103,13 +1139,31 @@
                             "new": "no"
                         },
                         {
-                            "name": "name",
-                            "h_pron": "pronounce",
+                            "name": "Grou'doon",
+                            "h_pron": "grăô•dūn'",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
-                                    "class": "class",
-                                    "meaning": "meaning",
+                                    "class": "concept, sensation",
+                                    "meaning": "Sorrow, literally 'a keening sorrow in your belly.' Sometimes used to refer to a piercing guilt.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "new": "no"
+                        },
+                        {
+                            "name": "Grouwn",
+                            "h_pron": "grăôn",
+                            "d_pron": "PRONOUNCE",
+                            "definition": [
+                                {
+                                    "class": "noun",
+                                    "meaning": " The center of something large, the middle. Used similarly to 'heart.'",
                                     "examples": [ 
                                         {
                                             "h_example": "This is an example.",
@@ -1126,13 +1180,13 @@
                     "secondletter": "u",
                     "words": [
                         {
-                            "name": "name",
-                            "h_pron": "pronounce",
+                            "name": "Guorf",
+                            "h_pron": "gwôrf",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
-                                    "class": "class",
-                                    "meaning": "meaning",
+                                    "class": "noun",
+                                    "meaning": "Domestic dog. Literally 'creature that guorfs.'",
                                     "examples": [ 
                                         {
                                             "h_example": "This is an example.",
@@ -1144,13 +1198,23 @@
                             "new": "no"
                         },
                         {
-                            "name": "name",
-                            "h_pron": "pronounce",
+                            "name": "Gura",
+                            "h_pron": "gyūr'•ə",
                             "d_pron": "PRONOUNCE",
                             "definition": [
                                 {
-                                    "class": "class",
-                                    "meaning": "meaning",
+                                    "class": "adjective",
+                                    "meaning": "Green; the color of plants.",
+                                    "examples": [ 
+                                        {
+                                            "h_example": "This is an example.",
+                                            "d_example": "Sa se example."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "class": "noun",
+                                    "meaning": "The shrubs and grass, literally the 'greenery.'",
                                     "examples": [ 
                                         {
                                             "h_example": "This is an example.",
